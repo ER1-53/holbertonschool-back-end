@@ -1,10 +1,11 @@
 #!/usr/bin/python3
-from sys import argv
+""" get api data """
 import requests
+from sys import argv
 
 
 def appeler_api():
-
+    """ api function call """
     user = requests.get("https://jsonplaceholder.typicode.com/users/{}".format(argv[1]))
     task = requests.get("https://jsonplaceholder.typicode.com/todos?userId={}".format(argv[1]))
 
