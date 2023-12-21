@@ -18,7 +18,6 @@ def appeler_api():
         EMPLOYEE_NAME = user_data["name"]
         TOTAL_NUMBER_OF_TASKS = len(tasks_data)
         NUMBER_OF_DONE_TASKS = 0
-        TASK_TITLE = []
         print("Employee {} is done with tasks ({}/{}):".format(
             EMPLOYEE_NAME, NUMBER_OF_DONE_TASKS, TOTAL_NUMBER_OF_TASKS))
         for task in tasks_data:
