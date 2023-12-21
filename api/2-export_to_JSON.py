@@ -16,7 +16,7 @@ def appeler_api():
         user_data = user.json()
         tasks_data = task.json()
 
-    my_dict = {argv[1]:[]}
+    my_dict = {argv[1]: []}
     for task in tasks_data:
         dict_all = {"task": task["title"],
                     "completed": task["completed"],
