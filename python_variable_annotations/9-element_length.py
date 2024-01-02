@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """ Annotate the values """
 from typing import Iterable, List, Tuple, Sequence
 
