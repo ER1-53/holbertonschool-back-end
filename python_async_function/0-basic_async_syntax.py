@@ -2,6 +2,7 @@
 """ async coroutine """
 import asyncio
 import random
+import typing
 
 
 async def wait_random(max_delay: int = 10) -> float:
